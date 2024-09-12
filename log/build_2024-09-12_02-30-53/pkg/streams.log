@@ -1,0 +1,24 @@
+[0.499s] Invoking command in '/home/habiba-elghazouly/Tsk2_ws/src/pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/habiba-elghazouly/Tsk2_ws/build/pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg build --build-base /home/habiba-elghazouly/Tsk2_ws/build/pkg/build install --record /home/habiba-elghazouly/Tsk2_ws/build/pkg/install.log --single-version-externally-managed install_data
+[0.660s] running egg_info
+[0.671s] writing ../../build/pkg/pkg.egg-info/PKG-INFO
+[0.671s] writing dependency_links to ../../build/pkg/pkg.egg-info/dependency_links.txt
+[0.672s] writing entry points to ../../build/pkg/pkg.egg-info/entry_points.txt
+[0.672s] writing requirements to ../../build/pkg/pkg.egg-info/requires.txt
+[0.672s] writing top-level names to ../../build/pkg/pkg.egg-info/top_level.txt
+[0.695s] reading manifest file '../../build/pkg/pkg.egg-info/SOURCES.txt'
+[0.695s] writing manifest file '../../build/pkg/pkg.egg-info/SOURCES.txt'
+[0.695s] running build
+[0.695s] running build_py
+[0.695s] copying pkg/onfield.py -> /home/habiba-elghazouly/Tsk2_ws/build/pkg/build/lib/pkg
+[0.696s] running install
+[0.700s] running install_lib
+[0.712s] copying /home/habiba-elghazouly/Tsk2_ws/build/pkg/build/lib/pkg/onfield.py -> /home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/python3.12/site-packages/pkg
+[0.712s] byte-compiling /home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/python3.12/site-packages/pkg/onfield.py to onfield.cpython-312.pyc
+[0.713s] running install_data
+[0.713s] running install_egg_info
+[0.725s] removing '/home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/python3.12/site-packages/pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[0.725s] Copying ../../build/pkg/pkg.egg-info to /home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/python3.12/site-packages/pkg-0.0.0-py3.12.egg-info
+[0.726s] running install_scripts
+[0.804s] Installing onfield script to /home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/pkg
+[0.804s] writing list of installed files to '/home/habiba-elghazouly/Tsk2_ws/build/pkg/install.log'
+[0.822s] Invoked command in '/home/habiba-elghazouly/Tsk2_ws/src/pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/habiba-elghazouly/Tsk2_ws/build/pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg build --build-base /home/habiba-elghazouly/Tsk2_ws/build/pkg/build install --record /home/habiba-elghazouly/Tsk2_ws/build/pkg/install.log --single-version-externally-managed install_data

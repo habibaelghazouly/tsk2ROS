@@ -1,0 +1,32 @@
+[0.489s] Invoking command in '/home/habiba-elghazouly/Tsk2_ws/src/pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/habiba-elghazouly/Tsk2_ws/build/pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg build --build-base /home/habiba-elghazouly/Tsk2_ws/build/pkg/build install --record /home/habiba-elghazouly/Tsk2_ws/build/pkg/install.log --single-version-externally-managed install_data
+[0.650s] running egg_info
+[0.650s] creating ../../build/pkg/pkg.egg-info
+[0.661s] writing ../../build/pkg/pkg.egg-info/PKG-INFO
+[0.661s] writing dependency_links to ../../build/pkg/pkg.egg-info/dependency_links.txt
+[0.662s] writing requirements to ../../build/pkg/pkg.egg-info/requires.txt
+[0.662s] writing top-level names to ../../build/pkg/pkg.egg-info/top_level.txt
+[0.662s] writing manifest file '../../build/pkg/pkg.egg-info/SOURCES.txt'
+[0.684s] reading manifest file '../../build/pkg/pkg.egg-info/SOURCES.txt'
+[0.685s] writing manifest file '../../build/pkg/pkg.egg-info/SOURCES.txt'
+[0.685s] running build
+[0.685s] running build_py
+[0.685s] creating /home/habiba-elghazouly/Tsk2_ws/build/pkg/build
+[0.685s] creating /home/habiba-elghazouly/Tsk2_ws/build/pkg/build/lib
+[0.685s] creating /home/habiba-elghazouly/Tsk2_ws/build/pkg/build/lib/pkg
+[0.685s] copying pkg/__init__.py -> /home/habiba-elghazouly/Tsk2_ws/build/pkg/build/lib/pkg
+[0.685s] running install
+[0.689s] running install_lib
+[0.701s] creating /home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/python3.12/site-packages/pkg
+[0.701s] copying /home/habiba-elghazouly/Tsk2_ws/build/pkg/build/lib/pkg/__init__.py -> /home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/python3.12/site-packages/pkg
+[0.701s] byte-compiling /home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/python3.12/site-packages/pkg/__init__.py to __init__.cpython-312.pyc
+[0.701s] running install_data
+[0.701s] creating /home/habiba-elghazouly/Tsk2_ws/install/pkg/share/ament_index
+[0.701s] creating /home/habiba-elghazouly/Tsk2_ws/install/pkg/share/ament_index/resource_index
+[0.701s] creating /home/habiba-elghazouly/Tsk2_ws/install/pkg/share/ament_index/resource_index/packages
+[0.701s] copying resource/pkg -> /home/habiba-elghazouly/Tsk2_ws/install/pkg/share/ament_index/resource_index/packages
+[0.701s] copying package.xml -> /home/habiba-elghazouly/Tsk2_ws/install/pkg/share/pkg
+[0.701s] running install_egg_info
+[0.715s] Copying ../../build/pkg/pkg.egg-info to /home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/python3.12/site-packages/pkg-0.0.0-py3.12.egg-info
+[0.715s] running install_scripts
+[0.793s] writing list of installed files to '/home/habiba-elghazouly/Tsk2_ws/build/pkg/install.log'
+[0.812s] Invoked command in '/home/habiba-elghazouly/Tsk2_ws/src/pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/habiba-elghazouly/Tsk2_ws/build/pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg build --build-base /home/habiba-elghazouly/Tsk2_ws/build/pkg/build install --record /home/habiba-elghazouly/Tsk2_ws/build/pkg/install.log --single-version-externally-managed install_data

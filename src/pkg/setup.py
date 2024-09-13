@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'onfield = pkg.onfield:main',
             'sensor_subscriber = pkg.aggregator:main',
+            'station = pkg.station:main', 
         ],
     },
 )

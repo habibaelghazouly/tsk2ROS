@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from weather_interfaces/srv/DataCheck.srv
+// generated code does not contain a copyright notice
+
+
+module weather_interfaces {
+  module srv {
+    struct DataCheck_Request {
+      float temperature;
+
+      float pressure;
+
+      float humidity;
+    };
+    struct DataCheck_Response {
+      boolean temp;
+
+      boolean press;
+
+      boolean humid;
+    };
+  };
+};

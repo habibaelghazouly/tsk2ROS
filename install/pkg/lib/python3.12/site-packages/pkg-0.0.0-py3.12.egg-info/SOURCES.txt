@@ -11,6 +11,7 @@ setup.py
 pkg/__init__.py
 pkg/aggregator.py
 pkg/onfield.py
+pkg/station.py
 resource/pkg
 test/test_copyright.py
 test/test_flake8.py

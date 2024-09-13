@@ -1,0 +1,8 @@
+setup.py
+weather_interfaces/__init__.py
+weather_interfaces.egg-info/PKG-INFO
+weather_interfaces.egg-info/SOURCES.txt
+weather_interfaces.egg-info/dependency_links.txt
+weather_interfaces.egg-info/top_level.txt
+weather_interfaces/srv/__init__.py
+weather_interfaces/srv/_data_check.py

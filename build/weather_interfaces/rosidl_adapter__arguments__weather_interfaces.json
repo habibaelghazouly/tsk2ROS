@@ -1,0 +1,6 @@
+{
+  "package_name": "weather_interfaces",
+  "non_idl_tuples": [
+    "/home/habiba-elghazouly/Tsk2_ws/src/weather_interfaces:srv/DataCheck.srv"
+  ]
+}

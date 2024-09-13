@@ -1,0 +1,11 @@
+{
+  "package_name": "weather_interfaces",
+  "output_dir": "/home/habiba-elghazouly/Tsk2_ws/build/weather_interfaces/rosidl_generator_type_description/weather_interfaces",
+  "idl_tuples": [
+    "/home/habiba-elghazouly/Tsk2_ws/build/weather_interfaces/rosidl_adapter/weather_interfaces:srv/DataCheck.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

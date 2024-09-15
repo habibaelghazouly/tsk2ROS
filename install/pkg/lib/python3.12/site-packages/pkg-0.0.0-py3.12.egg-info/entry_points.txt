@@ -1,4 +1,4 @@
 [console_scripts]
+aggregator = pkg.aggregator:main
 onfield = pkg.onfield:main
-sensor_subscriber = pkg.aggregator:main
 station = pkg.station:main

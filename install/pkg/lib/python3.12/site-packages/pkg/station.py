@@ -14,6 +14,10 @@ class Remote_Station(Node):
 
     def callback(self , request , response):
 
+        response.temp = False
+        response.press = False
+        response.humid= False
+
         if(10 < request.temperature < 100):
             response.temp = True
             self.get_logger().info(f"Temperature : {request.temperature:.2f} C is valid and range")
@@ -22,19 +26,21 @@ class Remote_Station(Node):
             self.get_logger().error("Error in Temperature data!!")
 
         if(0.95 < request.pressure < 1.2):
-            response.temp = True
-            self.get_logger().info(f"Temperature : {request.pressure:.2f} atm is valid and range")
+            response.press = True
+            self.get_logger().info(f"Pressure : {request.pressure:.2f} atm is valid and range")
         else :
-            response.temp = False
+            response.press = False
             self.get_logger().error("Error in Pressure data!!")  
 
         if(0.7 < request.humidity < 0.95):
-            response.temp = True
-            self.get_logger().info(f"Temperature : {request.humidity:.2f} % is valid and range")
+            response.humid = True
+            self.get_logger().info(f"Humidity : {request.humidity:.2f} % is valid and range")
         else :
-            response.temp = False
+            response.humid = False
             self.get_logger().error("Error in Humidity data!!")            
-
+        
+        return response
+    
 def main(args=None):
     rclpy.init(args=args)
     station = Remote_Station()

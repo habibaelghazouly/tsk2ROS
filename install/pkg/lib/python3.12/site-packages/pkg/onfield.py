@@ -12,7 +12,7 @@ class OnFieldNode(Node):
         self.publisher_press = self.create_publisher(Float32, 'pressure', 10)
         self.publisher_humidity = self.create_publisher(Float32, 'humidity', 10)
         self.timer = self.create_timer(0.5, self.timer_callback)
-        self.get_logger().info("Publisher has started")
+        self.get_logger().info("Publisher has started !!")
 
     def timer_callback(self):
         self.publish_temperature()

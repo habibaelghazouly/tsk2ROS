@@ -1,0 +1,26 @@
+[3.303s] Invoking command in '/home/habiba-elghazouly/Tsk2_ws/src/pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/habiba-elghazouly/Tsk2_ws/build/pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/python3.12/site-packages:/home/habiba-elghazouly/Tsk2_ws/install/weather_interfaces/lib/python3.12/site-packages:/home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/python3.12/site-packages:/home/habiba-elghazouly/tsk1_ws/install/mypkg/lib/python3.12/site-packages:/home/habiba-elghazouly/ses2_ws/install/mypkg/lib/python3.12/site-packages:/home/habiba-elghazouly/ses1_ws/install/py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg build --build-base /home/habiba-elghazouly/Tsk2_ws/build/pkg/build install --record /home/habiba-elghazouly/Tsk2_ws/build/pkg/install.log --single-version-externally-managed install_data
+[3.465s] running egg_info
+[3.476s] writing ../../build/pkg/pkg.egg-info/PKG-INFO
+[3.582s] writing dependency_links to ../../build/pkg/pkg.egg-info/dependency_links.txt
+[3.582s] writing entry points to ../../build/pkg/pkg.egg-info/entry_points.txt
+[3.583s] writing requirements to ../../build/pkg/pkg.egg-info/requires.txt
+[3.583s] writing top-level names to ../../build/pkg/pkg.egg-info/top_level.txt
+[3.623s] reading manifest file '../../build/pkg/pkg.egg-info/SOURCES.txt'
+[3.667s] writing manifest file '../../build/pkg/pkg.egg-info/SOURCES.txt'
+[3.667s] running build
+[3.667s] running build_py
+[3.668s] copying pkg/aggregator.py -> /home/habiba-elghazouly/Tsk2_ws/build/pkg/build/lib/pkg
+[3.669s] running install
+[3.681s] running install_lib
+[3.694s] copying /home/habiba-elghazouly/Tsk2_ws/build/pkg/build/lib/pkg/aggregator.py -> /home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/python3.12/site-packages/pkg
+[3.694s] byte-compiling /home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/python3.12/site-packages/pkg/aggregator.py to aggregator.cpython-312.pyc
+[3.695s] running install_data
+[3.695s] running install_egg_info
+[3.708s] removing '/home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/python3.12/site-packages/pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[3.708s] Copying ../../build/pkg/pkg.egg-info to /home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/python3.12/site-packages/pkg-0.0.0-py3.12.egg-info
+[3.723s] running install_scripts
+[3.805s] Installing onfield script to /home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/pkg
+[3.812s] Installing sensor_subscriber script to /home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/pkg
+[3.812s] Installing station script to /home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/pkg
+[3.813s] writing list of installed files to '/home/habiba-elghazouly/Tsk2_ws/build/pkg/install.log'
+[3.830s] Invoked command in '/home/habiba-elghazouly/Tsk2_ws/src/pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/habiba-elghazouly/Tsk2_ws/build/pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/python3.12/site-packages:/home/habiba-elghazouly/Tsk2_ws/install/weather_interfaces/lib/python3.12/site-packages:/home/habiba-elghazouly/Tsk2_ws/install/pkg/lib/python3.12/site-packages:/home/habiba-elghazouly/tsk1_ws/install/mypkg/lib/python3.12/site-packages:/home/habiba-elghazouly/ses2_ws/install/mypkg/lib/python3.12/site-packages:/home/habiba-elghazouly/ses1_ws/install/py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg build --build-base /home/habiba-elghazouly/Tsk2_ws/build/pkg/build install --record /home/habiba-elghazouly/Tsk2_ws/build/pkg/install.log --single-version-externally-managed install_data

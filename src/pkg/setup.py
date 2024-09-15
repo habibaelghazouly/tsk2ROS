@@ -21,7 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'onfield = pkg.onfield:main',
-            'sensor_subscriber = pkg.aggregator:main',
+            'aggregator = pkg.aggregator:main',
             'station = pkg.station:main', 
         ],
     },
